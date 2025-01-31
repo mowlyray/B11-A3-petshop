@@ -4,10 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet-Shop</title>
+    <link rel="stylesheet" href="style.css">
 
     <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- Font-awesome link -->
+    <script src="https://kit.fontawesome.com/ce2502e434.js" crossorigin="anonymous"></script>
+</head>
 </head>
 <body>
+    <header>
+        <!-- navbar section -->
+        <nav class="bg-[#FFF9F4] sora-font border-b border-b-[#111111] lg:border-none lg:py-4">
+            <div class="hidden lg:flex justify-between items-center w-10/12 mx-auto">
+                <div class="flex gap-5 items-center">
+                    <img src="c1-assets/logo-header.png" alt="">
+                    <h2 class="font-bold">Browse <span class="text-[#FFDC26]">4</span>Pets</h2>         
+                </div>
+
+                <div>
+                    <ul class="flex space-x-8 ">
+                        <li> <a href="">Find a pet</a></li>
+                        <li> <a href="">Breeds</a></li>
+                        <li> <a href="">Contact us</a></li>
+                    </ul>
+                </div>
+
+              <div class="flex items-center space-x-5">
+                   <a href=""><i class="fa-regular fa-bell"></i></a>
+                   <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                   <button class="border border-[#FFDC26] px-5 py-2 rounded-lg">Login</button>
+                   <button class="bg-[#FFDC26] px-5 py-2 rounded-lg">Register</button>
+             </div>
+            </div>
+            <!-- responsive navbar -->
+
+            <div class="flex justify-between items-center px-3 py-2 lg:hidden">
+                <img class="" src="c1-assets/logo-header.png" alt="">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+         <div class="w-11/12 lg:w-10/12 mx-auto mt-5 lg:mt-16">
+            <div class="banner space-y-3 lg:space-y-5 absolute z-10">
+                <h1 class="adlam-font lg:text-5xl">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                <p class="sora-font opacity-70">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy! </p>
+                <button class="bg-[#FFDC26] px-5 py-2 rounded-lg sora-font">Find a pet</button>
+            </div>
+            <div class="bannerimg relative">
+                <img src="c1-assets/cat-big.png" alt="">
+            </div>
+         </div>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
     
 </body>
 </html>
